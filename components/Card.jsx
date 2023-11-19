@@ -6,7 +6,7 @@ import { GiPayMoney } from "react-icons/gi";
 
 const Card = () => {
   return (
-    <div className="bg-white p-5 cursor-pointer w-[350px]">
+    <div className="bg-gray-100 p-5 cursor-pointer w-[350px]">
        <Image src={"/images/run1.jpg"} width={300} height={100} alt="" className="w-full mb-3"/>
      <div className="flex flex-col">
       <h1 className="text-gray-400 text-center text-lg tracking-wide">Canada mountain Race</h1>
