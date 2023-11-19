@@ -18,10 +18,10 @@ const Navbar = () => {
          />
       </div>
       <ul className="flex gap-5">
-        <Link href={"/"} className="text-sm hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><GoHomeFill /> Home</Link>
-        <Link href={"/"} className="text-sm hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><MdEmojiEvents />Events</Link>
-        <Link href={"/"} className="text-sm hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><FaShoppingBag />Shop</Link>
-        <Link href={"/"} className="text-sm hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><MdOutlinePersonPin />About</Link>
+        <Link href={"/"} className="text-lg hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><GoHomeFill /> Home</Link>
+        <Link href={"/"} className="text-lg hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><MdEmojiEvents />Events</Link>
+        <Link href={"/"} className="text-lg hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><FaShoppingBag />Shop</Link>
+        <Link href={"/"} className="text-lg hover:text-gray-300 transition-all flex items-center gap-1 cursor-pointer"><MdOutlinePersonPin />About</Link>
       </ul>
       {/* <div className="flex gap-2">
        <button className="bg-transparent border border-white px-4 skew-x-[-20deg] cursor-pointer"><Link href={"/login"} className="link">Login</Link></button>
