@@ -30,10 +30,10 @@ const Card = () => {
         <span className="text-gray-400">Price TBC</span>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-3 mt-3">
-       <span className="text-white text-sm py-1 px-3 bg-green-500">In Progress</span>
-       <span className="text-white text-sm py-1 px-3 bg-yellow-500">Comming Soon</span>
-       <span className="text-white text-sm py-1 px-3 bg-gray-400">Finished</span>
+      <div className="flex items-center justify-between gap-3 mt-3">
+       <span className="text-white text-sm py-1 px-3 bg-green-500 rounded-full">In Progress</span>
+       <span className="text-white text-sm py-1 px-3 bg-yellow-500 rounded-full">Soon</span>
+       <span className="text-white text-sm py-1 px-3 bg-gray-400 rounded-full">Finished</span>
       </div>
      </div>
     </div>
